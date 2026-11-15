@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #06090c;
+    color: #dcd7cc;
+    overflow-x: hidden;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, .font-serif, .font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-sans {
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .font-mono, code, .tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Luxury Editorial Surface & Border Rules */
+.editorial-border {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.editorial-surface {
+  background-color: #0b0f14;
+}
+
+.editorial-surface-soft {
+  background-color: #10161d;
+}
+
+.editorial-subtle-glow {
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #06090c;
+}
+::-webkit-scrollbar-thumb {
+  background: #19222c;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2b3949;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "bettaIQ",
+  "description": "bettaIQ: Know Better. Care Smarter. An all-in-one educational and health-care platform dedicated exclusively to Betta fish.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
